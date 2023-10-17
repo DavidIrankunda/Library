@@ -1,0 +1,50 @@
+
+/* Body styles */
+body {
+     display:inline;
+      font-family: Arial, sans-serif;
+    background-color: #581717;
+    text-align: center;
+    margin: 3rem;
+    padding: 2em;
+}
+
+/* Button styles */
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #2a3d49;
+    color: #d2c9c9;
+    border:none;
+    border-radius: calc(3rem);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+input[type="text"],
+input[type="number"] {
+    width: 60%;
+    padding: 20px;
+    border: 2px solid #dbbb1a;
+    border-radius: 1rem;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.library{
+  color: #d2c9c9;
+}
+
+.click{
+  color: aqua;
+  background-color: rgb(20, 62, 62);
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+  
+  }
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #1f446f;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>library</title>
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body>
+    <h1 class="library">My Library</h1>
+
+    <button onclick="openForm()" class="click">NEW BOOK</button>
+
+    <div id="library"></div>
+
+    <div id="bookForm" style="display: none">
+      <input type="text" id="title" placeholder="Title" />
+      <input type="text" id="author" placeholder="Author" />
+      <input type="number" id="pages" placeholder="Pages" />
+      <label for="read">Read:</label>
+      <input type="checkbox" id="read" />
+      <button onclick="addBookToLibrary()">Add Book</button>
+    </div>
+
+    <script src="library.js"></script>
+  </body>
+</html>
